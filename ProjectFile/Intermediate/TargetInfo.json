@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectFile",
+			"Path": "G:\\unreal projects\\UE4CodePractice\\ProjectFile\\Source\\ProjectFile.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectFileEditor",
+			"Path": "G:\\unreal projects\\UE4CodePractice\\ProjectFile\\Source\\ProjectFileEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

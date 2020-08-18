@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectFile.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2B362F10-9CDA-4852-9153-3FBA0B121DCE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectFile.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectFileEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CB117C2D-5BA5-4CF7-9BB8-58FDE88D249C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectFile">
+      <UniqueIdentifier>{44DC5C8E-02A0-40FD-9D05-FA416DD7F6A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectFile\BatteryMan.cpp">
+      <Filter>Source\ProjectFile</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFile\BatteryMan.h">
+      <Filter>Source\ProjectFile</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjectFile\ProjectFile.Build.cs">
+      <Filter>Source\ProjectFile</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectFile\ProjectFile.cpp">
+      <Filter>Source\ProjectFile</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFile\ProjectFile.h">
+      <Filter>Source\ProjectFile</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFile\ProjectFileCharacter.cpp">
+      <Filter>Source\ProjectFile</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFile\ProjectFileCharacter.h">
+      <Filter>Source\ProjectFile</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFile\ProjectFileGameMode.cpp">
+      <Filter>Source\ProjectFile</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFile\ProjectFileGameMode.h">
+      <Filter>Source\ProjectFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ProjectFile\BatteryMan_GameMode.h">
+      <Filter>Source\ProjectFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ProjectFile\BatteryMan_GameMode.cpp">
+      <Filter>Source\ProjectFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

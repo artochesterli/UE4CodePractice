@@ -1,0 +1,11 @@
+G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\Definitions.ProjectFile.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+G:\unreal projects\UE4CodePractice\ProjectFile\Source\ProjectFile/BatteryMan_GameMode.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+g:\unreal projects\ue4codepractice\projectfile\intermediate\build\win64\ue4editor\inc\projectfile\BatteryMan_GameMode.generated.h

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\unreal projects\\UE4CodePractice\\ProjectFile\\Source\\ProjectFile\\ProjectFile.Build.cs",
+		"G:\\unreal projects\\UE4CodePractice\\ProjectFile\\Source\\ProjectFile.Target.cs",
+		"G:\\unreal projects\\UE4CodePractice\\ProjectFile\\Source\\ProjectFileEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

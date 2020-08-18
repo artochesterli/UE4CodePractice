@@ -1,0 +1,2 @@
+G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\Definitions.ProjectFile.h
+g:\unreal projects\ue4codepractice\projectfile\source\projectfile\ProjectFile.h
