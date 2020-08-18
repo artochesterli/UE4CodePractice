@@ -1,12 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (G:\unreal projects\UE4CodePractice).
   Building ProjectFileEditor...
   Using Visual Studio 2017 14.16.27034 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] BatteryMan.cpp
-    [2/4] UE4Editor-ProjectFile-0010.lib
-      正在创建库 G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\UE4Editor-ProjectFile-0010.lib 和对象 G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\UE4Editor-ProjectFile-0010.exp
-    [3/4] UE4Editor-ProjectFile-0010.dll
-      正在创建库 G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\UE4Editor-ProjectFile-0010.suppressed.lib 和对象 G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\UE4Editor-ProjectFile-0010.suppressed.exp
-    [4/4] ProjectFileEditor.target
-  Total time in Parallel executor: 330.42 seconds
-  Total execution time: 331.41 seconds
+  Building 1 action with 8 processes...
+    [1/1] ProjectFileEditor.target
+  Total time in Parallel executor: 0.25 seconds
+  Total execution time: 1.59 seconds

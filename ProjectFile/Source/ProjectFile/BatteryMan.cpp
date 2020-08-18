@@ -2,6 +2,9 @@
 
 
 #include "BatteryMan.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ABatteryMan::ABatteryMan()
@@ -30,12 +33,43 @@ ABatteryMan::ABatteryMan()
 
 	bDead = false;
 
+	Power = 100;
+
+}
+
+void ABatteryMan::OnBeginOverlap(UPrimitiveComponent * HitComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	if (OtherActor->ActorHasTag("Recharge")) 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Collide_With"));
+
+		Power += 10;
+
+		if (Power > 100) {
+			Power = 100;
+		}
+
+		OtherActor->Destroy();
+	}
 }
 
 // Called when the game starts or when spawned
 void ABatteryMan::BeginPlay()
 {
 	Super::BeginPlay();
+
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABatteryMan::OnBeginOverlap);
+
+	if (Player_Power_Widget_Class != nullptr) {
+		Player_Power_Widget = CreateWidget(GetWorld(), Player_Power_Widget_Class);
+		Player_Power_Widget->AddToViewport();
+
+		UE_LOG(LogTemp, Warning, TEXT("Create"));
+
+	}
+	else {
+		UE_LOG(LogTemp, Warning, TEXT("No"));
+	}
 	
 }
 
@@ -44,9 +78,25 @@ void ABatteryMan::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Power -= DeltaTime * Power_Threshold;
+
+	if (Power <= 0) {
+		if (!bDead) {
+			bDead = true;
+
+			GetMesh()->SetSimulatePhysics(true);
+
+			FTimerHandle UnusedHandle;
+			GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABatteryMan::RestartGame, 3.0f, false);
+		}
+	}
+
 }
 
-
+void ABatteryMan::RestartGame() 
+{
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+}
 
 // Called to bind functionality to input
 void ABatteryMan::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

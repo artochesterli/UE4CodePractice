@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ProjectFile-0018.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\ProjectFileEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\BatteryMan.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\BatteryMan_GameMode.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\ProjectFile.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\ProjectFileCharacter.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\ProjectFileGameMode.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\BatteryMan.gen.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\BatteryMan_GameMode.gen.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\ProjectFile.init.gen.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\ProjectFileCharacter.gen.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\ProjectFileGameMode.gen.cpp.obj"
+"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\Default.rc2.res"
+/OUT:"G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Development\ProjectFile\UE4Editor-ProjectFile-0018.lib"
+/INCLUDE:IMPLEMENT_MODULE_ProjectFile

@@ -8,14 +8,49 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef PROJECTFILE_BatteryMan_generated_h
 #error "BatteryMan.generated.h already included, missing '#pragma once' in BatteryMan.h"
 #endif
 #define PROJECTFILE_BatteryMan_generated_h
 
 #define ProjectFile_Source_ProjectFile_BatteryMan_h_22_SPARSE_DATA
-#define ProjectFile_Source_ProjectFile_BatteryMan_h_22_RPC_WRAPPERS
-#define ProjectFile_Source_ProjectFile_BatteryMan_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define ProjectFile_Source_ProjectFile_BatteryMan_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBeginOverlap(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	}
+
+
+#define ProjectFile_Source_ProjectFile_BatteryMan_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBeginOverlap(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	}
+
+
 #define ProjectFile_Source_ProjectFile_BatteryMan_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryMan(); \

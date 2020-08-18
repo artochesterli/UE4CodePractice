@@ -144,3 +144,13 @@ G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPrope
 G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 G:\unreal projects\UE4CodePractice\ProjectFile\Intermediate\Build\Win64\UE4Editor\Inc\ProjectFile\BatteryMan.generated.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+G:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+g:\unreal\ue_4.24\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+G:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
